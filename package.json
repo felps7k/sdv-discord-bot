@@ -2,10 +2,10 @@
   "name": "sdv-discord-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/bot.ts",
   "scripts": {
     "start": "ts-node-dev .",
-    "prod":  "ts-node .",
+    "prod": "ts-node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
