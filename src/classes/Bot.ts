@@ -9,6 +9,12 @@ class Bot {
         Bot.client.on("ready", () => {
             if (Bot.client.user) {
                 console.log(`Bot está online: ${Bot.client.user.tag}`);
+                Bot.client.user.setPresence({
+                    activities: [{
+                        name: 'verdades',
+                        type: 'PLAYING'
+                    }],
+                });
             }
         });
     }
