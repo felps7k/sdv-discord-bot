@@ -1,3 +1,4 @@
+/** é o teste */
 import { Client, Intents } from "discord.js";
 
 const intents = [Intents.FLAGS.GUILDS];
